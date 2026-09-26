@@ -3,8 +3,8 @@
  * Strategy: Cache-first for App Shell, Network-first for Data files
  */
 
-const CACHE_NAME = 'speedrecall-shell-v2';
-const DATA_CACHE_NAME = 'speedrecall-data-v2';
+const CACHE_NAME = 'speedrecall-shell-v2.1';
+const DATA_CACHE_NAME = 'speedrecall-data-v2.1';
 
 const APP_SHELL_ASSETS = [
   './',
