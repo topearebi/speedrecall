@@ -1,10 +1,11 @@
 /**
- * js/state.js - Reactive State Store & Manifest Ingestion Layer
- * Handles:
- *  - Dynamic asynchronous loading from data/manifest.json
- *  - Schema version migration (clearing stale stub caches)
- *  - Category hierarchy indexing with character tokens for visual previews
- *  - Spaced repetition weighting and local persistence
+ * js/state.js - Reactive State Store & Manifest Reconciliation Layer
+ * 
+ * Responsibilities:
+ *  - Dynamic single-source versioning (reads 'version' from manifest.json)
+ *  - Non-destructive delta reconciliation of decks and cards
+ *  - Spaced repetition error-weight tracking & local persistence
+ *  - Multi-tier group/unit hierarchy indexing with character preview tokens
  */
 
 export class Store extends EventTarget {
@@ -16,7 +17,7 @@ export class Store extends EventTarget {
     this.decks = {};
     this.currentDeckId = "";
     this.activeMode = "standard";
-    this.schemaVersion = 3;
+    this.manifestVersion = 0;
     
     // Set of active category keys: Set<"GroupName::UnitName">
     this.selectedUnits = new Set();
@@ -32,28 +33,28 @@ export class Store extends EventTarget {
   }
 
   /**
-   * Asynchronously bootstraps state: verifies versioning, ingests manifest if needed
+   * Bootstraps store: loads local snapshot, reconciles with manifest delta.
    */
   async init() {
     const raw = localStorage.getItem(Store.STORAGE_KEY);
-    let stateValid = false;
-
     if (raw) {
       try {
         const parsed = JSON.parse(raw);
-        if (parsed.schemaVersion === this.schemaVersion && parsed.decks && Object.keys(parsed.decks).length > 0) {
-          this.decks = parsed.decks;
-          this.currentDeckId = parsed.currentDeckId || Object.keys(this.decks)[0];
-          this.activeMode = parsed.activeMode || "standard";
-          stateValid = true;
-        }
+        this.decks = parsed.decks || {};
+        this.currentDeckId = parsed.currentDeckId || "";
+        this.activeMode = parsed.activeMode || "standard";
+        this.manifestVersion = parsed.manifestVersion || 0;
       } catch (err) {
-        console.warn("Storage corrupted or outdated. Reloading from manifest.", err);
+        console.warn("Corrupt local state. Initiating clean manifest fetch.", err);
       }
     }
 
-    if (!stateValid) {
-      await this.loadFromManifest();
+    // Reconcile manifest updates without clobbering existing card weights
+    await this.syncWithManifest();
+
+    // Fallback deck selection if empty or invalid
+    if (!this.currentDeckId || !this.decks[this.currentDeckId]) {
+      this.currentDeckId = Object.keys(this.decks)[0] || "";
     }
 
     this.selectAllUnitsForCurrentDeck();
@@ -62,47 +63,71 @@ export class Store extends EventTarget {
   }
 
   /**
-   * Fetches data/manifest.json and loads all baseline JSON decks concurrently
+   * Fetches data/manifest.json. Ingests new decks and updates modified cards
+   * while preserving learned repetition weights and accuracy records.
    */
-  async loadFromManifest() {
+  async syncWithManifest() {
     try {
-      const manifestRes = await fetch(Store.MANIFEST_PATH);
-      if (!manifestRes.ok) throw new Error(`HTTP ${manifestRes.status} loading manifest`);
+      // Cache-busting query parameter ensures latest manifest fetch on network availability
+      const manifestRes = await fetch(`${Store.MANIFEST_PATH}?t=${Date.now()}`);
+      if (!manifestRes.ok) return;
       const manifest = await manifestRes.json();
 
-      const loadedDecks = {};
+      const manifestVer = manifest.version || 1;
+      const isInitial = Object.keys(this.decks).length === 0;
+      const isNewVersion = manifestVer > this.manifestVersion;
 
-      await Promise.all(
-        manifest.decks.map(async (entry) => {
-          try {
-            const deckRes = await fetch(entry.file);
-            if (!deckRes.ok) throw new Error(`HTTP ${deckRes.status} loading ${entry.file}`);
-            const deckData = await deckRes.json();
+      if (isInitial || isNewVersion) {
+        await Promise.all(
+          manifest.decks.map(async (entry) => {
+            // Fetch if the deck is completely new or the manifest version bumped
+            if (!this.decks[entry.id] || isNewVersion) {
+              try {
+                const deckRes = await fetch(`${entry.file}?t=${Date.now()}`);
+                if (!deckRes.ok) return;
+                const deckData = await deckRes.json();
 
-            loadedDecks[entry.id] = {
-              name: deckData.name || entry.name,
-              defaultMode: entry.defaultMode || "standard",
-              cards: deckData.cards || []
-            };
-          } catch (fetchErr) {
-            console.error(`Failed to ingest deck file: ${entry.file}`, fetchErr);
-          }
-        })
-      );
+                if (!this.decks[entry.id]) {
+                  // Register new deck cleanly
+                  this.decks[entry.id] = {
+                    name: deckData.name || entry.name,
+                    defaultMode: entry.defaultMode || "standard",
+                    cards: deckData.cards || []
+                  };
+                } else {
+                  // Non-destructive update: preserve weights of known cards
+                  const existingWeights = new Map(
+                    this.decks[entry.id].cards.map((c) => [c.id, c.weight])
+                  );
 
-      this.decks = loadedDecks;
-      this.currentDeckId = manifest.defaultDeckId || Object.keys(this.decks)[0] || "";
-      this.activeMode = this.decks[this.currentDeckId]?.defaultMode || "standard";
-      this.saveState();
+                  this.decks[entry.id].name = deckData.name || entry.name;
+                  this.decks[entry.id].cards = deckData.cards.map((card) => ({
+                    ...card,
+                    weight: existingWeights.get(card.id) ?? (card.weight || 1.0)
+                  }));
+                }
+              } catch (fetchErr) {
+                console.warn(`Failed to ingest deck file: ${entry.file}`, fetchErr);
+              }
+            }
+          })
+        );
+
+        this.manifestVersion = manifestVer;
+        if (!this.currentDeckId) {
+          this.currentDeckId = manifest.defaultDeckId || Object.keys(this.decks)[0];
+        }
+        this.saveState();
+      }
     } catch (err) {
-      console.error("Critical failure during manifest ingestion:", err);
+      console.warn("Manifest check failed; falling back to offline state.", err);
     }
   }
 
   saveState() {
     try {
       const payload = {
-        schemaVersion: this.schemaVersion,
+        manifestVersion: this.manifestVersion,
         currentDeckId: this.currentDeckId,
         activeMode: this.activeMode,
         decks: this.decks
@@ -110,7 +135,7 @@ export class Store extends EventTarget {
       localStorage.setItem(Store.STORAGE_KEY, JSON.stringify(payload));
       this.dispatchEvent(new CustomEvent("state-saved"));
     } catch (err) {
-      console.error("Failed to write state to localStorage:", err);
+      console.error("Failed to commit state to localStorage:", err);
     }
   }
 
@@ -136,7 +161,7 @@ export class Store extends EventTarget {
 
   /**
    * Builds an indexed map of Groups, Units, and constituent Character Tokens
-   * Returns: { [group: string]: { [unit: string]: Array<string> } }
+   * Output structure: { [group: string]: { [unit: string]: Array<string> } }
    */
   getCategoryHierarchy() {
     const deck = this.getCurrentDeck();
@@ -155,7 +180,7 @@ export class Store extends EventTarget {
         hierarchy[group][unit] = [];
       }
 
-      // Collect prompt glyphs for DJT visual preview pills
+      // Collect prompt tokens for DJT visual preview pills
       if (card.prompt && !hierarchy[group][unit].includes(card.prompt)) {
         hierarchy[group][unit].push(card.prompt);
       }
@@ -253,7 +278,9 @@ export class Store extends EventTarget {
 
   async resetToDefaults() {
     localStorage.removeItem(Store.STORAGE_KEY);
-    await this.loadFromManifest();
+    this.decks = {};
+    this.manifestVersion = 0;
+    await this.syncWithManifest();
     this.resetStats();
     this.selectAllUnitsForCurrentDeck();
     this.dispatchEvent(new CustomEvent("deck-changed", { detail: { deckId: this.currentDeckId } }));
