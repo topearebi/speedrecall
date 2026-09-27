@@ -1,10 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <rect width="512" height="512" rx="112" fill="#090d16" />
-  <rect x="24" y="24" width="464" height="464" rx="92" fill="#111827" stroke="#1e293b" stroke-width="8" />
-  <path d="M280 64L160 272h96l-32 176 160-224h-96z" 
-        fill="#38bdf8" 
-        stroke="#0284c7" 
-        stroke-width="12" 
-        stroke-linecap="round" 
-        stroke-linejoin="round" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <!-- Background Vignette Gradient -->
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="65%" fx="50%" fy="30%">
+      <stop offset="0%" stop-color="#141c2e" />
+      <stop offset="100%" stop-color="#090d16" />
+    </radialGradient>
+
+    <!-- Kinetic Slash Gradient (Electric Ice to Sky Blue) -->
+    <linearGradient id="slashGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc" />
+      <stop offset="60%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Baseline Stroke Gradient -->
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="45%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Focal Flash Core Glow -->
+    <filter id="coreGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Canvas Squircle Base (App Mask Target) -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGlow)" />
+
+  <!-- Subtle Inner Border Frame -->
+  <rect x="16" y="16" width="480" height="480" rx="98" fill="none" stroke="#1e293b" stroke-width="4" stroke-opacity="0.6" />
+
+  <!-- Ambient Focal Flash behind intersection -->
+  <circle cx="256" cy="256" r="64" fill="#38bdf8" opacity="0.12" filter="url(#coreGlow)" />
+
+  <!-- Glyphic Baseline: Radical 1 (一) representing the prompt floor -->
+  <path 
+    d="M 112 256 L 384 256" 
+    stroke="url(#barGradient)" 
+    stroke-width="26" 
+    stroke-linecap="round" 
+  />
+
+  <!-- The Kinetic Slash: Radical 4 (丿) representing the instantaneous downward strike -->
+  <path 
+    d="M 336 128 L 224 374 C 214 396, 186 406, 162 396" 
+    fill="none" 
+    stroke="url(#slashGradient)" 
+    stroke-width="32" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
+
+  <!-- The Intersection Spark (110ms Micro-Flash Core) -->
+  <circle cx="277" cy="256" r="13" fill="#f0f9ff" filter="url(#coreGlow)" />
+  <circle cx="277" cy="256" r="6" fill="#ffffff" />
 </svg>
