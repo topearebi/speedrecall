@@ -2,11 +2,10 @@
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "name": "SpeedRecall",
   "short_name": "SpeedRecall",
-  "description": "Zero-friction rapid script and vocabulary recall engine.",
+  "description": "Deterministic rapid script and vocabulary recall engine.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "orientation": "any",
   "background_color": "#090d16",
   "theme_color": "#090d16",
@@ -29,25 +28,7 @@
       "src": "assets/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "assets/icons/icon-maskable-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "assets/icons/icon-maskable-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "assets/icons/tv-banner-320x180.png",
-      "sizes": "320x180",
-      "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     }
   ],
   "shortcuts": [
