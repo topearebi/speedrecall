@@ -16,7 +16,7 @@ export class Store extends EventTarget {
     this.decks = {};
     this.currentDeckId = "";
     this.activeMode = "standard";
-    this.schemaVersion = 2;
+    this.schemaVersion = 3;
     
     // Set of active category keys: Set<"GroupName::UnitName">
     this.selectedUnits = new Set();
