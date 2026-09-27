@@ -3,7 +3,7 @@
  * Strategy: Cache-first for local static app assets, Network-first for GitHub REST APIs.
  */
 
-const CACHE_NAME = "speedrecall-v2";
+const CACHE_NAME = "speedrecall-v3";
 
 // Static application assets required for full offline function
 const PRECACHE_ASSETS = [
