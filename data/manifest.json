@@ -13,6 +13,12 @@
       "name": "French (Core Verb Conjugations)",
       "file": "./data/fr-verbs.json",
       "defaultMode": "standard"
+    },
+    {
+      "id": "zh-radicals",
+      "name": "Mandarin (Kangxi Radicals 1-214)",
+      "file": "./data/zh-radicals.json",
+      "defaultMode": "standard"
     }
   ]
 }
