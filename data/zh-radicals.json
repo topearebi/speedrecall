@@ -1,0 +1,1932 @@
+{
+  "name": "Mandarin (Kangxi Radicals 1-214)",
+  "defaultMode": "standard",
+  "cards": [
+    {
+      "id": "rad-001",
+      "group": "Strokes 1-2",
+      "unit": "1 Stroke",
+      "prompt": "一",
+      "subtitle": "one",
+      "answers": ["yi1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-002",
+      "group": "Strokes 1-2",
+      "unit": "1 Stroke",
+      "prompt": "丨",
+      "subtitle": "line",
+      "answers": ["shu4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-003",
+      "group": "Strokes 1-2",
+      "unit": "1 Stroke",
+      "prompt": "丶",
+      "subtitle": "dot",
+      "answers": ["dian3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-004",
+      "group": "Strokes 1-2",
+      "unit": "1 Stroke",
+      "prompt": "丿",
+      "subtitle": "slash",
+      "answers": ["pie3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-005",
+      "group": "Strokes 1-2",
+      "unit": "1 Stroke",
+      "prompt": "乙",
+      "subtitle": "second",
+      "answers": ["yi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-006",
+      "group": "Strokes 1-2",
+      "unit": "1 Stroke",
+      "prompt": "亅",
+      "subtitle": "hook",
+      "answers": ["gou1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-007",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "二",
+      "subtitle": "two",
+      "answers": ["er4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-008",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "亠",
+      "subtitle": "lid",
+      "answers": ["tou2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-009",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "人",
+      "subtitle": "person",
+      "answers": ["ren2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-010",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "儿",
+      "subtitle": "legs",
+      "answers": ["er2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-011",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "入",
+      "subtitle": "enter",
+      "answers": ["ru4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-012",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "八",
+      "subtitle": "eight",
+      "answers": ["ba1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-013",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "冂",
+      "subtitle": "down box",
+      "answers": ["jiong3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-014",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "冖",
+      "subtitle": "cover",
+      "answers": ["mi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-015",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "冫",
+      "subtitle": "ice",
+      "answers": ["bing1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-016",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "几",
+      "subtitle": "table",
+      "answers": ["ji1", "ji3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-017",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "凵",
+      "subtitle": "open box",
+      "answers": ["qu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-018",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "刀",
+      "subtitle": "knife",
+      "answers": ["dao1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-019",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "力",
+      "subtitle": "power",
+      "answers": ["li4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-020",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "勹",
+      "subtitle": "wrap",
+      "answers": ["bao1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-021",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "匕",
+      "subtitle": "ladle",
+      "answers": ["bi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-022",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "匚",
+      "subtitle": "right open box",
+      "answers": ["fang1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-023",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "匸",
+      "subtitle": "hiding enclosure",
+      "answers": ["xi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-024",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "十",
+      "subtitle": "ten",
+      "answers": ["shi2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-025",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "卜",
+      "subtitle": "divination",
+      "answers": ["bu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-026",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "卩",
+      "subtitle": "seal",
+      "answers": ["jie2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-027",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "厂",
+      "subtitle": "cliff",
+      "answers": ["han4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-028",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "厶",
+      "subtitle": "private",
+      "answers": ["si1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-029",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "又",
+      "subtitle": "again",
+      "answers": ["you4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-030",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "口",
+      "subtitle": "mouth",
+      "answers": ["kou3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-031",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "囗",
+      "subtitle": "enclosure",
+      "answers": ["wei2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-032",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "土",
+      "subtitle": "earth",
+      "answers": ["tu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-033",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "士",
+      "subtitle": "scholar",
+      "answers": ["shi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-034",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "夂",
+      "subtitle": "go",
+      "answers": ["zhi1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-035",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "夊",
+      "subtitle": "go slowly",
+      "answers": ["sui1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-036",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "夕",
+      "subtitle": "night",
+      "answers": ["xi1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-037",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "大",
+      "subtitle": "big",
+      "answers": ["da4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-038",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "女",
+      "subtitle": "woman",
+      "answers": ["nv3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-039",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "子",
+      "subtitle": "child",
+      "answers": ["zi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-040",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "宀",
+      "subtitle": "roof",
+      "answers": ["mian2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-041",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "寸",
+      "subtitle": "inch",
+      "answers": ["cun4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-042",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "小",
+      "subtitle": "small",
+      "answers": ["xiao3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-043",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "尢",
+      "subtitle": "lame",
+      "answers": ["you2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-044",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "尸",
+      "subtitle": "corpse",
+      "answers": ["shi1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-045",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "屮",
+      "subtitle": "sprout",
+      "answers": ["che4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-046",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "山",
+      "subtitle": "mountain",
+      "answers": ["shan1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-047",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "川",
+      "subtitle": "river",
+      "answers": ["chuan1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-048",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "工",
+      "subtitle": "work",
+      "answers": ["gong1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-049",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "己",
+      "subtitle": "oneself",
+      "answers": ["ji3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-050",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "巾",
+      "subtitle": "towel",
+      "answers": ["jin1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-051",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "干",
+      "subtitle": "dry",
+      "answers": ["gan1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-052",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "幺",
+      "subtitle": "thread",
+      "answers": ["yao1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-053",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "广",
+      "subtitle": "shelter",
+      "answers": ["guang3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-054",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "廴",
+      "subtitle": "stride",
+      "answers": ["yin3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-055",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "廾",
+      "subtitle": "hands joined",
+      "answers": ["gong3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-056",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "弋",
+      "subtitle": "shoot with a bow",
+      "answers": ["yi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-057",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "弓",
+      "subtitle": "bow",
+      "answers": ["gong1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-058",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "彐",
+      "subtitle": "snout",
+      "answers": ["ji4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-059",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "彡",
+      "subtitle": "hair",
+      "answers": ["shan1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-060",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "彳",
+      "subtitle": "step",
+      "answers": ["chi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-061",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "心",
+      "subtitle": "heart",
+      "answers": ["xin1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-062",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "戈",
+      "subtitle": "spear",
+      "answers": ["ge1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-063",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "户",
+      "subtitle": "door",
+      "answers": ["hu4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-064",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "手",
+      "subtitle": "hand",
+      "answers": ["shou3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-065",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "支",
+      "subtitle": "branch",
+      "answers": ["zhi1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-066",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "攴",
+      "subtitle": "rap",
+      "answers": ["pu1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-067",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "文",
+      "subtitle": "script",
+      "answers": ["wen2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-068",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "斗",
+      "subtitle": "dipper",
+      "answers": ["dou3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-069",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "斤",
+      "subtitle": "axe",
+      "answers": ["jin1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-070",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "方",
+      "subtitle": "square",
+      "answers": ["fang1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-071",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "无",
+      "subtitle": "not",
+      "answers": ["wu2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-072",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "日",
+      "subtitle": "sun",
+      "answers": ["ri4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-073",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "曰",
+      "subtitle": "say",
+      "answers": ["yue1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-074",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "月",
+      "subtitle": "moon",
+      "answers": ["yue4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-075",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "木",
+      "subtitle": "tree",
+      "answers": ["mu4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-076",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "欠",
+      "subtitle": "lack",
+      "answers": ["qian4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-077",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "止",
+      "subtitle": "stop",
+      "answers": ["zhi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-078",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "歹",
+      "subtitle": "death",
+      "answers": ["dai3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-079",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "殳",
+      "subtitle": "weapon",
+      "answers": ["shu1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-080",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "母",
+      "subtitle": "mother",
+      "answers": ["mu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-081",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "比",
+      "subtitle": "compare",
+      "answers": ["bi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-082",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "毛",
+      "subtitle": "fur",
+      "answers": ["mao2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-083",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "氏",
+      "subtitle": "clan",
+      "answers": ["shi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-084",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "气",
+      "subtitle": "steam",
+      "answers": ["qi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-085",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "水",
+      "subtitle": "water",
+      "answers": ["shui3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-086",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "火",
+      "subtitle": "fire",
+      "answers": ["huo3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-087",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "爪",
+      "subtitle": "claw",
+      "answers": ["zhao3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-088",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "父",
+      "subtitle": "father",
+      "answers": ["fu4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-089",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "爻",
+      "subtitle": "lines on a trigram",
+      "answers": ["yao2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-090",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "爿",
+      "subtitle": "half of a tree trunk",
+      "answers": ["qiang2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-091",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "片",
+      "subtitle": "slice",
+      "answers": ["pian4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-092",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "牙",
+      "subtitle": "tooth",
+      "answers": ["ya2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-093",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "牛",
+      "subtitle": "cow",
+      "answers": ["niu2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-094",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "犭",
+      "subtitle": "dog",
+      "answers": ["quan3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-095",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "玄",
+      "subtitle": "profound",
+      "answers": ["xuan2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-096",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "玉",
+      "subtitle": "jade",
+      "answers": ["yu4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-097",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "瓜",
+      "subtitle": "melon",
+      "answers": ["gua1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-098",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "瓦",
+      "subtitle": "tile",
+      "answers": ["wa3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-099",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "甘",
+      "subtitle": "sweet",
+      "answers": ["gan1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-100",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "生",
+      "subtitle": "life",
+      "answers": ["sheng1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-101",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "用",
+      "subtitle": "use",
+      "answers": ["yong4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-102",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "田",
+      "subtitle": "field",
+      "answers": ["tian2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-103",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "疋",
+      "subtitle": "cloth",
+      "answers": ["pi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-104",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "疒",
+      "subtitle": "ill",
+      "answers": ["bing4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-105",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "癶",
+      "subtitle": "foot steps",
+      "answers": ["bo1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-106",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "白",
+      "subtitle": "white",
+      "answers": ["bai2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-107",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "皮",
+      "subtitle": "skin",
+      "answers": ["pi2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-108",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "皿",
+      "subtitle": "dish",
+      "answers": ["min3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-109",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "目",
+      "subtitle": "eye",
+      "answers": ["mu4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-110",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "矛",
+      "subtitle": "spear",
+      "answers": ["mao2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-111",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "矢",
+      "subtitle": "arrow",
+      "answers": ["shi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-112",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "石",
+      "subtitle": "stone",
+      "answers": ["shi2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-113",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "示",
+      "subtitle": "spirit",
+      "answers": ["shi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-114",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "禸",
+      "subtitle": "track",
+      "answers": ["rou2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-115",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "禾",
+      "subtitle": "grain",
+      "answers": ["he2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-116",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "穴",
+      "subtitle": "cave",
+      "answers": ["xue4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-117",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "立",
+      "subtitle": "stand",
+      "answers": ["li4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-118",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "竹",
+      "subtitle": "bamboo",
+      "answers": ["zhu2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-119",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "米",
+      "subtitle": "rice",
+      "answers": ["mi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-120",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "纟",
+      "subtitle": "silk",
+      "answers": ["si1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-121",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "缶",
+      "subtitle": "jar",
+      "answers": ["fou3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-122",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "网",
+      "subtitle": "net",
+      "answers": ["wang3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-123",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "羊",
+      "subtitle": "sheep",
+      "answers": ["yang2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-124",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "羽",
+      "subtitle": "feather",
+      "answers": ["yu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-125",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "老",
+      "subtitle": "old",
+      "answers": ["lao3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-126",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "而",
+      "subtitle": "and",
+      "answers": ["er2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-127",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "耒",
+      "subtitle": "plow",
+      "answers": ["lei3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-128",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "耳",
+      "subtitle": "ear",
+      "answers": ["er3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-129",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "聿",
+      "subtitle": "brush",
+      "answers": ["yu4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-130",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "肉",
+      "subtitle": "meat",
+      "answers": ["rou4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-131",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "臣",
+      "subtitle": "minister",
+      "answers": ["chen2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-132",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "自",
+      "subtitle": "oneself",
+      "answers": ["zi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-133",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "至",
+      "subtitle": "arrive",
+      "answers": ["zhi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-134",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "臼",
+      "subtitle": "mortar",
+      "answers": ["jiu4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-135",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "舌",
+      "subtitle": "tongue",
+      "answers": ["she2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-136",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "舛",
+      "subtitle": "contrary",
+      "answers": ["chuan3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-137",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "舟",
+      "subtitle": "boat",
+      "answers": ["zhou1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-138",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "艮",
+      "subtitle": "mountain",
+      "answers": ["gen4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-139",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "色",
+      "subtitle": "color",
+      "answers": ["se4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-140",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "艹",
+      "subtitle": "grass",
+      "answers": ["cao3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-141",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "虍",
+      "subtitle": "tiger",
+      "answers": ["hu1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-142",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "虫",
+      "subtitle": "insect",
+      "answers": ["chong2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-143",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "血",
+      "subtitle": "blood",
+      "answers": ["xue4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-144",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "行",
+      "subtitle": "walk",
+      "answers": ["xing2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-145",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "衣",
+      "subtitle": "clothes",
+      "answers": ["yi1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-146",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "西",
+      "subtitle": "west",
+      "answers": ["xi1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-147",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "见",
+      "subtitle": "see",
+      "answers": ["jian4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-148",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "角",
+      "subtitle": "horn",
+      "answers": ["jiao3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-149",
+      "group": "Strokes 1-2",
+      "unit": "2 Strokes",
+      "prompt": "讠",
+      "subtitle": "speech",
+      "answers": ["yan2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-150",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "谷",
+      "subtitle": "valley",
+      "answers": ["gu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-151",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "豆",
+      "subtitle": "bean",
+      "answers": ["dou4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-152",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "豕",
+      "subtitle": "pig",
+      "answers": ["shi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-153",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "豸",
+      "subtitle": "badger",
+      "answers": ["zhi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-154",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "贝",
+      "subtitle": "shell",
+      "answers": ["bei4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-155",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "赤",
+      "subtitle": "red",
+      "answers": ["chi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-156",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "走",
+      "subtitle": "walk",
+      "answers": ["zou3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-157",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "足",
+      "subtitle": "foot",
+      "answers": ["zu2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-158",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "身",
+      "subtitle": "body",
+      "answers": ["shen1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-159",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "车",
+      "subtitle": "cart",
+      "answers": ["che1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-160",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "辛",
+      "subtitle": "bitter",
+      "answers": ["xin1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-161",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "辰",
+      "subtitle": "morning",
+      "answers": ["chen2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-162",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "辶",
+      "subtitle": "walk",
+      "answers": ["chuo4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-163",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "邑",
+      "subtitle": "city",
+      "answers": ["yi4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-164",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "酉",
+      "subtitle": "wine",
+      "answers": ["you3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-165",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "釆",
+      "subtitle": "distinguish",
+      "answers": ["bian4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-166",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "里",
+      "subtitle": "village",
+      "answers": ["li3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-167",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "钅",
+      "subtitle": "metal",
+      "answers": ["jin1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-168",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "长",
+      "subtitle": "long",
+      "answers": ["chang2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-169",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "门",
+      "subtitle": "gate",
+      "answers": ["men2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-170",
+      "group": "Stroke 8",
+      "unit": "8 Strokes",
+      "prompt": "阜",
+      "subtitle": "mound",
+      "answers": ["fu4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-171",
+      "group": "Stroke 8",
+      "unit": "8 Strokes",
+      "prompt": "隶",
+      "subtitle": "slave",
+      "answers": ["li4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-172",
+      "group": "Stroke 8",
+      "unit": "8 Strokes",
+      "prompt": "隹",
+      "subtitle": "short-tailed bird",
+      "answers": ["zhui1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-173",
+      "group": "Stroke 8",
+      "unit": "8 Strokes",
+      "prompt": "雨",
+      "subtitle": "rain",
+      "answers": ["yu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-174",
+      "group": "Stroke 8",
+      "unit": "8 Strokes",
+      "prompt": "青",
+      "subtitle": "blue",
+      "answers": ["qing1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-175",
+      "group": "Stroke 8",
+      "unit": "8 Strokes",
+      "prompt": "非",
+      "subtitle": "wrong",
+      "answers": ["fei1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-176",
+      "group": "Stroke 9",
+      "unit": "9 Strokes",
+      "prompt": "面",
+      "subtitle": "face",
+      "answers": ["mian4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-177",
+      "group": "Stroke 9",
+      "unit": "9 Strokes",
+      "prompt": "革",
+      "subtitle": "leather",
+      "answers": ["ge2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-178",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "韦",
+      "subtitle": "soft leather",
+      "answers": ["wei3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-179",
+      "group": "Stroke 9",
+      "unit": "9 Strokes",
+      "prompt": "韭",
+      "subtitle": "leek",
+      "answers": ["jiu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-180",
+      "group": "Stroke 9",
+      "unit": "9 Strokes",
+      "prompt": "音",
+      "subtitle": "sound",
+      "answers": ["yin1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-181",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "页",
+      "subtitle": "page",
+      "answers": ["ye4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-182",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "风",
+      "subtitle": "wind",
+      "answers": ["feng1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-183",
+      "group": "Stroke 4",
+      "unit": "4 Strokes",
+      "prompt": "飞",
+      "subtitle": "fly",
+      "answers": ["fei1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-184",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "饣",
+      "subtitle": "eat",
+      "answers": ["shi2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-185",
+      "group": "Stroke 9",
+      "unit": "9 Strokes",
+      "prompt": "首",
+      "subtitle": "head",
+      "answers": ["shou3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-186",
+      "group": "Stroke 9",
+      "unit": "9 Strokes",
+      "prompt": "香",
+      "subtitle": "fragrant",
+      "answers": ["xiang1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-187",
+      "group": "Stroke 3",
+      "unit": "3 Strokes",
+      "prompt": "马",
+      "subtitle": "horse",
+      "answers": ["ma3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-188",
+      "group": "Stroke 9",
+      "unit": "9 Strokes",
+      "prompt": "骨",
+      "subtitle": "bone",
+      "answers": ["gu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-189",
+      "group": "Strokes 10+",
+      "unit": "10 Strokes",
+      "prompt": "高",
+      "subtitle": "high",
+      "answers": ["gao1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-190",
+      "group": "Strokes 10+",
+      "unit": "10 Strokes",
+      "prompt": "髟",
+      "subtitle": "long hair",
+      "answers": ["biao1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-191",
+      "group": "Strokes 10+",
+      "unit": "10 Strokes",
+      "prompt": "鬥",
+      "subtitle": "fight",
+      "answers": ["dou4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-192",
+      "group": "Strokes 10+",
+      "unit": "10 Strokes",
+      "prompt": "鬯",
+      "subtitle": "sacrificial wine",
+      "answers": ["chang4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-193",
+      "group": "Strokes 10+",
+      "unit": "10 Strokes",
+      "prompt": "鬲",
+      "subtitle": "cauldron",
+      "answers": ["li4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-194",
+      "group": "Stroke 9",
+      "unit": "9 Strokes",
+      "prompt": "鬼",
+      "subtitle": "ghost",
+      "answers": ["gui3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-195",
+      "group": "Stroke 8",
+      "unit": "8 Strokes",
+      "prompt": "鱼",
+      "subtitle": "fish",
+      "answers": ["yu2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-196",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "鸟",
+      "subtitle": "bird",
+      "answers": ["niao3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-197",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "卤",
+      "subtitle": "salty",
+      "answers": ["lu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-198",
+      "group": "Strokes 10+",
+      "unit": "11 Strokes",
+      "prompt": "鹿",
+      "subtitle": "deer",
+      "answers": ["lu4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-199",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "麦",
+      "subtitle": "wheat",
+      "answers": ["mai4"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-200",
+      "group": "Strokes 10+",
+      "unit": "11 Strokes",
+      "prompt": "麻",
+      "subtitle": "hemp",
+      "answers": ["ma2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-201",
+      "group": "Strokes 10+",
+      "unit": "11 Strokes",
+      "prompt": "黄",
+      "subtitle": "yellow",
+      "answers": ["huang2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-202",
+      "group": "Strokes 10+",
+      "unit": "12 Strokes",
+      "prompt": "黍",
+      "subtitle": "millet",
+      "answers": ["shu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-203",
+      "group": "Strokes 10+",
+      "unit": "12 Strokes",
+      "prompt": "黑",
+      "subtitle": "black",
+      "answers": ["hei1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-204",
+      "group": "Strokes 10+",
+      "unit": "12 Strokes",
+      "prompt": "黹",
+      "subtitle": "embroidery",
+      "answers": ["zhi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-205",
+      "group": "Stroke 8",
+      "unit": "8 Strokes",
+      "prompt": "黾",
+      "subtitle": "frog",
+      "answers": ["min3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-206",
+      "group": "Strokes 10+",
+      "unit": "12 Strokes",
+      "prompt": "鼎",
+      "subtitle": "tripod",
+      "answers": ["ding3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-207",
+      "group": "Strokes 10+",
+      "unit": "13 Strokes",
+      "prompt": "鼓",
+      "subtitle": "drum",
+      "answers": ["gu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-208",
+      "group": "Strokes 10+",
+      "unit": "13 Strokes",
+      "prompt": "鼠",
+      "subtitle": "rat",
+      "answers": ["shu3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-209",
+      "group": "Strokes 10+",
+      "unit": "14 Strokes",
+      "prompt": "鼻",
+      "subtitle": "nose",
+      "answers": ["bi2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-210",
+      "group": "Stroke 6",
+      "unit": "6 Strokes",
+      "prompt": "齐",
+      "subtitle": "even",
+      "answers": ["qi2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-211",
+      "group": "Stroke 8",
+      "unit": "8 Strokes",
+      "prompt": "齿",
+      "subtitle": "tooth",
+      "answers": ["chi3"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-212",
+      "group": "Stroke 5",
+      "unit": "5 Strokes",
+      "prompt": "龙",
+      "subtitle": "dragon",
+      "answers": ["long2"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-213",
+      "group": "Stroke 7",
+      "unit": "7 Strokes",
+      "prompt": "龟",
+      "subtitle": "turtle",
+      "answers": ["gui1"],
+      "weight": 1.0
+    },
+    {
+      "id": "rad-214",
+      "group": "Strokes 10+",
+      "unit": "17 Strokes",
+      "prompt": "龠",
+      "subtitle": "flute",
+      "answers": ["yue4"],
+      "weight": 1.0
+    }
+  ]
+}
